@@ -19,9 +19,9 @@ To scale up video-based surveying systems, Australia’s national science agency
 
 ## Solution
 
-Solution includes ensemble of YOLOv5 models trained on different data with high resolution with [Weighted-Boxes-Fusion](#https://github.com/ZFTurbo/Weighted-Boxes-Fusion) and tracking with [norfair library](#https://github.com/tryolabs/norfair). Different hyperparameter tuning with albumentation tuning, different train test split approaches, norfair tuning.  
-During experiments several models [ScaledYOLOv4](#https://github.com/WongKinYiu/ScaledYOLOv4) were trained, but the result was worse.   
-Also was tried approach with classification for 'starfish' and 'no starfish' using [efiicientnet pytorch](#https://github.com/lukemelas/EfficientNet-PyTorch), but it didn't affect the result.  
+Solution includes ensemble of YOLOv5 models trained on different data with high resolution with [Weighted-Boxes-Fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion) and tracking with [norfair library](https://github.com/tryolabs/norfair). Different hyperparameter tuning with albumentation tuning, different train test split approaches, norfair tuning.  
+During experiments several models [ScaledYOLOv4](https://github.com/WongKinYiu/ScaledYOLOv4) were trained, but the result was worse.   
+Also was tried approach with classification for 'starfish' and 'no starfish' using [efiicientnet pytorch](https://github.com/lukemelas/EfficientNet-PyTorch), but it didn't affect the result.  
 Measure f2_score during training (with changing yolov5 training code) didn't affect the result.  
 Since there was data disbalance (images with starfishes were 4.77 times less than images with), one of the approaches includes choosing validation dataset with balance of images close to train dataset, including number of labeled images and total number of starfishes. The goal was to make ensemble, that works well not only on public test, but on the whole test set. Since the result on the public test is close to the result on the hidden test, this was achieved.
 
