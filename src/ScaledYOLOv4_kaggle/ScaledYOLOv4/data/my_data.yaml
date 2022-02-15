@@ -1,0 +1,6 @@
+
+train: /app/_data/1280_1280/train_1.txt # training directory
+val: /app/_data/1280_1280/val_1.txt # validation directory
+
+nc: 1 # number of classes
+names: ['fish'] # name of the class

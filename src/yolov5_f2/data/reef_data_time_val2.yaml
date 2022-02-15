@@ -1,0 +1,7 @@
+
+train: /app/_data/train_time_37_val2.txt # training directory
+val: /app/_data/val_time_37_val2.txt # validation directory
+
+# Classes
+nc: 1  # number of classes
+names: ['starfish']  # class names
