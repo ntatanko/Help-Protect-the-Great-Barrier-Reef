@@ -27,27 +27,14 @@ Since there was data disbalance (images with starfishes were 4.77 times less tha
 
 
 
-<details>
-    <summary><h2>Acknowledgements</h2></summary>  
-    
-    
-https://github.com/tryolabs/norfair  
-    
+<details> 
+    <summary>
+        <b>Acknowledgements</b>
+    </summary>
+
 https://github.com/ultralytics/yolov5  
-
-https://github.com/WongKinYiu/ScaledYOLOv4  
-
-
-```
-    @InProceedings{Wang_2021_CVPR,  
-    author    = {Wang, Chien-Yao and Bochkovskiy, Alexey and Liao, Hong-Yuan Mark},  
-    title     = {{Scaled-YOLOv4}: Scaling Cross Stage Partial Network},  
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},  
-    month     = {June},  
-    year      = {2021},  
-    pages     = {13029-13038}  
-}
- ```  
+    
+https://github.com/tryolabs/norfair   
 
 https://github.com/ZFTurbo/Weighted-Boxes-Fusion  
     
@@ -63,6 +50,19 @@ https://github.com/ZFTurbo/Weighted-Boxes-Fusion
 }
 ```
     
+    
+https://github.com/WongKinYiu/ScaledYOLOv4   
+```
+    @InProceedings{Wang_2021_CVPR,  
+    author    = {Wang, Chien-Yao and Bochkovskiy, Alexey and Liao, Hong-Yuan Mark},  
+    title     = {{Scaled-YOLOv4}: Scaling Cross Stage Partial Network},  
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},  
+    month     = {June},  
+    year      = {2021},  
+    pages     = {13029-13038}  
+}
+ ```  
+
     
 https://github.com/lukemelas/EfficientNet-PyTorch  
 
