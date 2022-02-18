@@ -17,6 +17,10 @@ The Great Barrier Reef Foundation established an innovation program to develop n
 
 To scale up video-based surveying systems, Australia’s national science agency, CSIRO has teamed up with Google to develop innovative machine learning technology that can analyse large image datasets accurately, efficiently, and in near real-time.   
 
+## Result
+F2_score:0.697 on Private Leaderboard, 0.669 on Public Leaderboard.  
+32th place, top 2%.
+
 ## Solution
 
 Solution includes ensemble of YOLOv5 models trained on different data with high resolution with [Weighted-Boxes-Fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion) and tracking with [norfair library](https://github.com/tryolabs/norfair). Different hyperparameter tuning with albumentation tuning, different train test split approaches, norfair tuning.  
